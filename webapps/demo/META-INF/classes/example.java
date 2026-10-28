@@ -24,8 +24,9 @@ public class example extends HttpServlet {
         if (name == null || name.isBlank()) {
             name = "World";
         }
-
-        out.println("<h1> hello from servlet " + name + "</h1>");
+        
+        out.println("<h1 style=\"color: red;\">Hello from Servlet "
+                + name + "</h1>");
 
     }
 
