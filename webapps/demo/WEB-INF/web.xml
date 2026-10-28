@@ -38,6 +38,11 @@
     <servlet>
         <servlet-name>HelloServlet</servlet-name>
         <servlet-class>HelloServlet</servlet-class>
+        <init-param>
+            <param-name>author</param-name>
+            <param-value>Rohit</param-value>
+        </init-param>
+        <load-on-startup>1</load-on-startup>
     </servlet>
 
     <servlet-mapping>
@@ -62,6 +67,14 @@
         <welcome-file>index.html</welcome-file>
         <welcome-file>index.jsp</welcome-file>
     </welcome-file-list>
+
+    <!-- ============================================================== -->
+    <!-- 5. Context-param                                               -->
+    <!-- ============================================================== -->
+    <Context-param>
+        <param-name>college</param-name>
+        <param-value>abc college<param-value>
+    </Context-param>
 
 </web-app>
 
