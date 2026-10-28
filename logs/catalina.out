@@ -1,0 +1,141 @@
+28-Oct-2026 12:34:01.632 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/11.0.27
+28-Oct-2026 12:34:01.647 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Oct 6 2026 18:12:07 UTC
+28-Oct-2026 12:34:01.648 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 11.0.27.0
+28-Oct-2026 12:34:01.648 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+28-Oct-2026 12:34:01.648 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            7.0.0-15-generic
+28-Oct-2026 12:34:01.649 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+28-Oct-2026 12:34:01.649 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-17-openjdk-amd64
+28-Oct-2026 12:34:01.652 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           17.0.20.1+1-1-26.04-Ubuntu
+28-Oct-2026 12:34:01.653 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Ubuntu
+28-Oct-2026 12:34:01.657 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/rohit/apache-tomcat-11.0.27
+28-Oct-2026 12:34:01.657 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/rohit/apache-tomcat-11.0.27
+28-Oct-2026 12:34:01.675 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/rohit/apache-tomcat-11.0.27/conf/logging.properties
+28-Oct-2026 12:34:01.676 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+28-Oct-2026 12:34:01.676 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+28-Oct-2026 12:34:01.680 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+28-Oct-2026 12:34:01.681 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+28-Oct-2026 12:34:01.681 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang.reflect=ALL-UNNAMED
+28-Oct-2026 12:34:01.682 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+28-Oct-2026 12:34:01.682 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+28-Oct-2026 12:34:01.682 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+28-Oct-2026 12:34:01.682 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+28-Oct-2026 12:34:01.682 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --enable-native-access=ALL-UNNAMED
+28-Oct-2026 12:34:01.683 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/rohit/apache-tomcat-11.0.27
+28-Oct-2026 12:34:01.683 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/rohit/apache-tomcat-11.0.27
+28-Oct-2026 12:34:01.683 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/rohit/apache-tomcat-11.0.27/temp
+28-Oct-2026 12:34:01.697 SEVERE [main] org.apache.catalina.core.AprLifecycleListener.init An incompatible version [2.0.14] of the Apache Tomcat Native library is installed, while Tomcat requires at least version [2.0.16]
+28-Oct-2026 12:34:02.524 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+28-Oct-2026 12:34:02.557 SEVERE [main] org.apache.catalina.util.LifecycleBase.handleSubClassException Failed to initialize component [Connector["http-nio-8080"]]
+	org.apache.catalina.LifecycleException: Protocol handler initialization failed
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:1316)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:128)
+		at org.apache.catalina.core.StandardService.initInternal(StandardService.java:543)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:128)
+		at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:958)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:128)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:831)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:863)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+		at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:302)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:481)
+	Caused by: java.net.BindException: Address already in use
+		at java.base/sun.nio.ch.Net.bind0(Native Method)
+		at java.base/sun.nio.ch.Net.bind(Net.java:567)
+		at java.base/sun.nio.ch.ServerSocketChannelImpl.netBind(ServerSocketChannelImpl.java:337)
+		at java.base/sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:294)
+		at org.apache.tomcat.util.net.NioEndpoint.initServerSocket(NioEndpoint.java:495)
+		at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:379)
+		at org.apache.tomcat.util.net.AbstractEndpoint.bindWithCleanup(AbstractEndpoint.java:2205)
+		at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:2223)
+		at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:959)
+		at org.apache.coyote.http11.AbstractHttp11Protocol.init(AbstractHttp11Protocol.java:96)
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:1314)
+		... 13 more
+28-Oct-2026 12:34:02.561 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [1500] milliseconds
+28-Oct-2026 12:34:02.667 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+28-Oct-2026 12:34:02.668 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/11.0.27]
+28-Oct-2026 12:34:02.689 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/rohit/apache-tomcat-11.0.27/webapps/ROOT]
+28-Oct-2026 12:34:03.801 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/rohit/apache-tomcat-11.0.27/webapps/ROOT] has finished in [1,111] ms
+28-Oct-2026 12:34:03.802 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/rohit/apache-tomcat-11.0.27/webapps/examples]
+28-Oct-2026 12:34:04.638 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/rohit/apache-tomcat-11.0.27/webapps/examples] has finished in [836] ms
+28-Oct-2026 12:34:04.639 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/rohit/apache-tomcat-11.0.27/webapps/manager]
+28-Oct-2026 12:34:04.722 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/rohit/apache-tomcat-11.0.27/webapps/manager] has finished in [83] ms
+28-Oct-2026 12:34:04.723 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/rohit/apache-tomcat-11.0.27/webapps/host-manager]
+28-Oct-2026 12:34:04.773 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/rohit/apache-tomcat-11.0.27/webapps/host-manager] has finished in [49] ms
+28-Oct-2026 12:34:04.774 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/rohit/apache-tomcat-11.0.27/webapps/demo]
+28-Oct-2026 12:34:04.847 SEVERE [main] org.apache.catalina.core.StandardContext.startInternal One or more Filters failed to start. Full details will be found in the appropriate container log file
+28-Oct-2026 12:34:04.847 SEVERE [main] org.apache.catalina.core.StandardContext.startInternal Context [/demo] startup failed due to previous errors
+28-Oct-2026 12:34:04.864 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/rohit/apache-tomcat-11.0.27/webapps/demo] has finished in [89] ms
+28-Oct-2026 12:34:04.865 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/rohit/apache-tomcat-11.0.27/webapps/docs]
+28-Oct-2026 12:34:05.015 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/rohit/apache-tomcat-11.0.27/webapps/docs] has finished in [151] ms
+28-Oct-2026 12:34:05.036 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [2474] milliseconds
+28-Oct-2026 12:34:05.059 SEVERE [main] org.apache.catalina.core.StandardServer.await Failed to create server shutdown socket on address [localhost] and port [8005] (base port [8005] and offset [0])
+	java.net.BindException: Address already in use
+		at java.base/sun.nio.ch.Net.bind0(Native Method)
+		at java.base/sun.nio.ch.Net.bind(Net.java:567)
+		at java.base/sun.nio.ch.Net.bind(Net.java:556)
+		at java.base/sun.nio.ch.NioSocketImpl.bind(NioSocketImpl.java:648)
+		at java.base/java.net.ServerSocket.bind(ServerSocket.java:388)
+		at java.base/java.net.ServerSocket.<init>(ServerSocket.java:274)
+		at org.apache.catalina.core.StandardServer.await(StandardServer.java:535)
+		at org.apache.catalina.startup.Catalina.await(Catalina.java:992)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:941)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:345)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:482)
+28-Oct-2026 12:34:05.079 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+28-Oct-2026 12:34:05.080 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+28-Oct-2026 12:34:05.166 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+28-Oct-2026 12:34:05.169 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+28-Oct-2026 12:38:32.073 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/11.0.27
+28-Oct-2026 12:38:32.083 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Oct 6 2026 18:12:07 UTC
+28-Oct-2026 12:38:32.084 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 11.0.27.0
+28-Oct-2026 12:38:32.084 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+28-Oct-2026 12:38:32.084 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            7.0.0-15-generic
+28-Oct-2026 12:38:32.085 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+28-Oct-2026 12:38:32.085 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-17-openjdk-amd64
+28-Oct-2026 12:38:32.085 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           17.0.20.1+1-1-26.04-Ubuntu
+28-Oct-2026 12:38:32.085 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Ubuntu
+28-Oct-2026 12:38:32.086 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/rohit/apache-tomcat-11.0.27
+28-Oct-2026 12:38:32.086 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/rohit/apache-tomcat-11.0.27
+28-Oct-2026 12:38:32.103 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/rohit/apache-tomcat-11.0.27/conf/logging.properties
+28-Oct-2026 12:38:32.104 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+28-Oct-2026 12:38:32.104 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+28-Oct-2026 12:38:32.104 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+28-Oct-2026 12:38:32.104 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+28-Oct-2026 12:38:32.104 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang.reflect=ALL-UNNAMED
+28-Oct-2026 12:38:32.105 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+28-Oct-2026 12:38:32.105 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+28-Oct-2026 12:38:32.105 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+28-Oct-2026 12:38:32.105 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+28-Oct-2026 12:38:32.105 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --enable-native-access=ALL-UNNAMED
+28-Oct-2026 12:38:32.105 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/rohit/apache-tomcat-11.0.27
+28-Oct-2026 12:38:32.106 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/rohit/apache-tomcat-11.0.27
+28-Oct-2026 12:38:32.106 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/rohit/apache-tomcat-11.0.27/temp
+28-Oct-2026 12:38:32.112 SEVERE [main] org.apache.catalina.core.AprLifecycleListener.init An incompatible version [2.0.14] of the Apache Tomcat Native library is installed, while Tomcat requires at least version [2.0.16]
+28-Oct-2026 12:38:32.484 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+28-Oct-2026 12:38:32.515 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [749] milliseconds
+28-Oct-2026 12:38:32.654 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+28-Oct-2026 12:38:32.655 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/11.0.27]
+28-Oct-2026 12:38:32.667 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/rohit/apache-tomcat-11.0.27/webapps/ROOT]
+28-Oct-2026 12:38:33.219 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/rohit/apache-tomcat-11.0.27/webapps/ROOT] has finished in [551] ms
+28-Oct-2026 12:38:33.220 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/rohit/apache-tomcat-11.0.27/webapps/examples]
+28-Oct-2026 12:38:33.657 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/rohit/apache-tomcat-11.0.27/webapps/examples] has finished in [436] ms
+28-Oct-2026 12:38:33.659 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/rohit/apache-tomcat-11.0.27/webapps/manager]
+28-Oct-2026 12:38:33.713 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/rohit/apache-tomcat-11.0.27/webapps/manager] has finished in [55] ms
+28-Oct-2026 12:38:33.714 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/rohit/apache-tomcat-11.0.27/webapps/host-manager]
+28-Oct-2026 12:38:33.748 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/rohit/apache-tomcat-11.0.27/webapps/host-manager] has finished in [34] ms
+28-Oct-2026 12:38:33.748 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/rohit/apache-tomcat-11.0.27/webapps/demo]
+28-Oct-2026 12:38:33.787 SEVERE [main] org.apache.catalina.core.StandardContext.startInternal One or more Filters failed to start. Full details will be found in the appropriate container log file
+28-Oct-2026 12:38:33.787 SEVERE [main] org.apache.catalina.core.StandardContext.startInternal Context [/demo] startup failed due to previous errors
+28-Oct-2026 12:38:33.802 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/rohit/apache-tomcat-11.0.27/webapps/demo] has finished in [53] ms
+28-Oct-2026 12:38:33.802 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/rohit/apache-tomcat-11.0.27/webapps/docs]
+28-Oct-2026 12:38:33.832 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/rohit/apache-tomcat-11.0.27/webapps/docs] has finished in [30] ms
+28-Oct-2026 12:38:33.839 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+28-Oct-2026 12:38:33.855 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1339] milliseconds
